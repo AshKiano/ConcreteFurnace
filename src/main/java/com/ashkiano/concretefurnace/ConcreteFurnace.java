@@ -26,5 +26,6 @@ public class ConcreteFurnace extends JavaPlugin {
             Bukkit.addRecipe(recipe);
         }
         Metrics metrics = new Metrics(this, 21223);
+        this.getLogger().info("Thank you for using the ConcreteFurnace plugin! If you enjoy using this plugin, please consider making a donation to support the development. You can donate at: https://donate.ashkiano.com");
     }
 }
